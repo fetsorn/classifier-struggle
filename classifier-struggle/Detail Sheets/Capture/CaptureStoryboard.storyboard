@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB"
+version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch"
+propertyAccessControl="none" useAutolayout="YES"
+useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES"
+initialViewController="gdu-5G-aKt">
+  <device id="retina4_7" orientation="portrait"
+  appearance="light" />
+  <dependencies>
+    <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin"
+    version="16087" />
+    <capability name="Safe area layout guides"
+    minToolsVersion="9.0" />
+    <capability name="documents saved in the Xcode 8 format"
+    minToolsVersion="8.0" />
+  </dependencies>
+  <scenes>
+    <!--Capture View Controller-->
+    <scene sceneID="5">
+      <objects>
+        <viewController storyboardIdentifier="pickerVC" id="2"
+        customClass="CaptureViewController"
+        customModule="Classifier-Struggle"
+        customModuleProvider="target"
+        sceneMemberID="viewController">
+          <view key="view" contentMode="scaleToFill" id="3">
+            <rect key="frame" x="0.0" y="0.0" width="375"
+            height="574" />
+            <autoresizingMask key="autoresizingMask"
+            flexibleMaxX="YES" flexibleMaxY="YES" />
+            <color key="backgroundColor"
+            white="0.33333333333333331" alpha="1"
+            colorSpace="calibratedWhite" />
+            <viewLayoutGuide key="safeArea" id="f1z-uk-HKV" />
+          </view>
+          <toolbarItems />
+          <navigationItem key="navigationItem" id="HHq-CI-LKg" />
+        </viewController>
+        <placeholder placeholderIdentifier="IBFirstResponder"
+        id="4" sceneMemberID="firstResponder" />
+      </objects>
+      <point key="canvasLocation" x="1030.4000000000001"
+      y="104.34782608695653" />
+    </scene>
+    <!--Navigation Controller-->
+    <scene sceneID="LAc-0J-sbd">
+      <objects>
+        <navigationController toolbarHidden="NO" id="gdu-5G-aKt"
+        sceneMemberID="viewController">
+          <toolbarItems />
+          <navigationBar key="navigationBar"
+          contentMode="scaleToFill" translucent="NO"
+          id="fA8-F4-ghm">
+            <rect key="frame" x="0.0" y="0.0" width="375"
+            height="44" />
+            <autoresizingMask key="autoresizingMask" />
+            <textAttributes key="titleTextAttributes">
+              <color key="textColor" white="1" alpha="1"
+              colorSpace="custom"
+              customColorSpace="genericGamma22GrayColorSpace" />
+            </textAttributes>
+          </navigationBar>
+          <nil name="viewControllers" />
+          <toolbar key="toolbar" opaque="NO"
+          clearsContextBeforeDrawing="NO"
+          userInteractionEnabled="NO" contentMode="scaleToFill"
+          translucent="NO" id="UOl-JO-hV3">
+            <rect key="frame" x="0.0" y="623" width="375"
+            height="44" />
+            <autoresizingMask key="autoresizingMask" />
+          </toolbar>
+          <connections>
+            <segue destination="2" kind="relationship"
+            relationship="rootViewController" id="7BT-C3-8Ga" />
+          </connections>
+        </navigationController>
+        <placeholder placeholderIdentifier="IBFirstResponder"
+        id="BQX-Qr-Ioe" userLabel="First Responder"
+        sceneMemberID="firstResponder" />
+      </objects>
+      <point key="canvasLocation" x="244.80000000000001"
+      y="104.34782608695653" />
+    </scene>
+  </scenes>
+</document>

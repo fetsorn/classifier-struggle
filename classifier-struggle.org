@@ -1,0 +1,29 @@
+#+TITLE: Classifier Struggle
+
+* tasks
+ - change logic to game draft
+   - model
+     + game
+       - scenario
+       - goal time
+       - total time
+       - guesses
+       - name
+     + guess
+       - time
+       - label
+       - photo
+       - inferences
+       - timestamp
+   - structs
+     + scenario
+       - labels
+       - description
+       - icon
+       - name
+     + inference
+       - confidence
+       - label
+   - assets
+     - draft vector logo
+     - scenario icons
