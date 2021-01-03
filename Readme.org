@@ -1,0 +1,5 @@
+#+TITLE: classifier-struggle
+
+An iOS game that explores the relationship between an image classification neural network and the data scientist.
+
+To participate in testing, install TestFlight from the AppStore and open the following link: https://testflight.apple.com/join/mC4laTe0
